@@ -5,11 +5,11 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sophia Williams - About Me</title>
+  <title>Anja Radonic - O meni</title>
   <meta name="description"
-    content="Hello there, I'm Sophia Williams – an intrepid explorer through the lens, on a relentless quest to capture the world's boundless wonders. Join me in unraveling the extraordinary through my lens as I embark on a visual journey like no other.">
+    content="Hello there, I'm Anja Radonic: event, portrait, lifestyle and pet photographer.">
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="./assets/LOGO.png" />
   <link rel="stylesheet" href="output.css" />
   <link rel="stylesheet" href="styles.css" />
   <!-- Alpine.js -->
@@ -17,6 +17,9 @@
   <!-- Start - Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap" rel="stylesheet">
   <!-- End - Fonts -->
@@ -29,13 +32,13 @@
     <nav id="nav" x-data="{ open: false }" role="navigation" class="w-full">
       <div class="container mx-auto flex flex-wrap items-center md:flex-no-wrap">
         <div class="mr-4 md:mr-8">
-          <a href="index.html" class="text-2xl font-signika font-bold">SOPHIA WILLIAMS</a>
+          <a href="index.html" class="text-2xl font-montserrat font-bold">ANJA RADONIC</a>
         </div>
         <div class="ml-auto md:hidden flex items-center justify-start">
           <button onclick="menuToggle()" @click="open = !open"
             class="tap-highlight-transparent text-black dark:text-white w-5 h-5 relative focus:outline-none"
             @click="open = !open">
-            <span class="sr-only">Open main menu</span>
+            <span class="sr-only">Glavni meni</span>
             <div class="block w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <span aria-hidden="true"
                 class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out"
@@ -54,19 +57,19 @@
           <ul id="ulMenu"
             class="flex flex-col duration-300 ease-out md:space-x-5 sm:transition-none mt-5 md:flex-row md:items-center md:ml-auto md:mt-0 md:pt-0 md:border-0">
             <li class="group transition duration-300">
-              <a href="index.html" class="font-signika text-2xl">PORTFOLIO
+              <a href="index.html" class="font-manrope text-2xl">PORTFOLIO
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white">
                 </span>
               </a>
             </li>
             <li class="group transition duration-300">
-              <a href="about_me.html" class="font-signika text-2xl">ABOUT ME
+              <a href="about_me.html" class="font-manrope text-2xl">O MENI
                 <span class="hidden md:block h-0.5 bg-black dark:bg-white"></span>
               </a>
             </li>
             <li class="group transition duration-300">
-              <a href="contact.html" class="font-signika text-2xl">CONTACT
+              <a href="contact.html" class="font-manrope text-2xl">KONTAKT
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white">
                 </span>
@@ -79,46 +82,39 @@
   </header>
   <!-- Content -->
   <div class="container mx-auto">
-    <h1 class="text-4xl pt-10 pb-8"><b>ABOUT ME</b></h1>
+    <h1 class="text-4xl font-manrope pt-10 pb-8"><b>O MENI</b></h1>
     <div class="grid grid-cols-2 gap-14 md:gap-20">
       <div class="col-span-2 md:col-span-1">
         <div
           class="bg-white dark:bg-neutral-900 p-5 pb-28 m-6 md:m-12 shadow-lg border border-gray-100 dark:border-neutral-800 hover:rotate-0 transition duration-500 -rotate-6 relative">
-          <img src="./assets/Avatar.png" alt=""
+          <img src="./assets/Avatar.JPG" alt=""
             class="smooth-edges flex flex-col w-full aspect-square object-cover h-auto" />
-          <div class="absolute bottom-0 left-0 right-0 text-center">
-            <p class="text-gray-800 dark:text-slate-200 pb-7 h-full text-6xl font-nothingyoucoulddo">me</p>
-          </div>
         </div>
 
       </div>
       <section class="font-normal text-center text-base md:text-start mx-3 col-span-2 md:col-span-1 my-auto">
         <div class="block md:hidden">
-          <p class="text-3xl font-serif font-bold mb-1">Hello there,</p>
-          <p class="text-3xl font-serif font-bold mb-6">I'm Sophia <span class="animate-wave">👋</span></p>
+          <p class="text-3xl font-manrope font-bold mb-1">Zdravo,</p>
+          <p class="text-3xl font-manrope font-bold mb-6">ja sam Anja <span class="animate-wave">👋</span></p>
         </div>
-        <p class="hidden md:block text-3xl font-serif font-bold mb-6">Hello there, I'm Sophia
+        <p class="hidden md:block text-3xl font-manrope font-bold mb-6">Zdravo, ja sam Anja
           <span class="animate-wave">👋</span>
         </p>
-        <p class="mb-4">
-          I'm a San Francisco-based photographer with over 6 years of
-          experience in capturing unforgettable moments. I specialize in
-          creating images that are both visually striking and emotionally
-          impactful, and I have developed a signature style that blends
-          natural beauty with vibrant colors and bold compositions.
+        <p class="mb-4 font-montserrat">
+          Dolazim iz Banjaluke i bavim se fotografijom poslednjih pet godina. Najviše
+          uživam u fotografiji događaja, ljudi i kućnih ljubimaca. Smatram da su moje
+          fotografije prepoznatljive po toplim tonovima i bilježenju spontanih, iskrenih
+          prizora.
         </p>
-        <p class="mb-4">
-          When I'm not behind the camera, you can find me exploring the city's
-          diverse neighborhoods, trying out new restaurants, or spending time
-          with my family and friends. I believe that every moment is an
-          opportunity to experience something new and to create memories that
-          will last a lifetime.
+        <p class="mb-4 font-montserrat">
+          Pored fotografije, diplomirani sam inženjer računarstva i bavim se razvojem
+          web aplikacija. Slobodno vrijeme provodim u prirodi sa psom, na putovanjima,
+          ili u pripremi neke nove hrane.
         </p>
-        <p>
-          Thank you for taking the time to learn a little bit about me and my
-          work. If you're interested in collaborating or would like to see
-          more of my portfolio, please don't hesitate to get in touch. Let's
-          work together to bring your vision to life!
+        <p class="font-montserrat">
+          Hvala Vam što ste izdvojili vrijeme da me upoznate i pogledate moj portfolio!
+          Ako imate pitanja, prijedloge za saradnju ili želite da znate više o mom radu,
+          slobodno me kontaktirajte!
         </p>
       </section>
     </div>
@@ -128,11 +124,11 @@
     <div class="max-w-screen-xl py-16 mx-auto">
       <div class="grid grid-cols-1 gap-8 text-center mx-auto">
         <div>
-          <p class="font-signika"><b>SOPHIA WILLIAMS</b></p>
-          <p class="mt-4 text-sm text-gray-600 dark:text-gray-300">
-            929 Sycamore Street San Francisco CA<br />(415) 208- 2116
+          <p class="font-montserrat"><b>ANJA RADONIC</b></p>
+          <p class="mt-4 text-sm font-montserrat text-gray-600 dark:text-gray-300">
+            78000 Banja Luka, Bosnia and Herzegovina<br />+387 65 967 425
           </p>
-          <div class="flex mx-auto">
+          <!-- <div class="flex mx-auto">
             <div class="mx-auto space-x-6 flex mt-8 text-gray-600 dark:text-gray-300">
               <a class="transition duration-300 hover:opacity-75" href="https://www.facebook.com" target="_blank"
                 rel="noreferrer">
@@ -169,12 +165,12 @@
                 </svg>
               </a>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
       <p class="mt-8 text-xs text-gray-600 dark:text-gray-300 text-center">
         © 2023 Developed and Designed by
-        <a href="https://www.linkedin.com/in/joão-franco-452161195/" class="underline">João Franco</a>
+        <a class="underline">Anja Radonic</a>
       </p>
     </div>
   </footer>

@@ -983,6 +983,14 @@ video {
   font-family: Signika, sans-serif;
 }
 
+.font-manrope {
+  font-family: 'Manrope', sans-serif;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1194,7 +1202,7 @@ video {
   max-width: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (rs-color-scheme: dark) {
   .dark\:border-neutral-800 {
     --tw-border-opacity: 1;
     border-color: rgb(38 38 38 / var(--tw-border-opacity));
